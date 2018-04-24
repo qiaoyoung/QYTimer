@@ -13,7 +13,7 @@
 
 + (NSTimer *)qy_scheduledTimerWithTimeInterval:(NSTimeInterval)interval
                                        repeats:(BOOL)repeats
-                                         block:(void(^)())block
+                                         block:(void(^)(void))block
 {
     
   return  [self scheduledTimerWithTimeInterval:interval
@@ -25,7 +25,7 @@
 }
 + (void)qy_blockInvoke:(NSTimer *)timer{
     
-    void(^block)() = timer.userInfo;
+    void(^block)(void) = timer.userInfo;
     if (block) {
         block();
     }

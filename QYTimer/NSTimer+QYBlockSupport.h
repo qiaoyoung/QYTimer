@@ -12,6 +12,6 @@
 
 + (NSTimer *)qy_scheduledTimerWithTimeInterval:(NSTimeInterval)interval
                                        repeats:(BOOL)repeats
-                                         block:(void(^)())block;
+                                         block:(void(^)(void))block;
 
 @end

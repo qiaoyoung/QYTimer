@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
   s.name         = "QYTimer"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "QYTimer Class."
 
   # This description is used to generate tags and improve search results.
