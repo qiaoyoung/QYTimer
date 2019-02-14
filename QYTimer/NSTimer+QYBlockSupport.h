@@ -2,8 +2,8 @@
 //  NSTimer+QYBlockSupport.h
 //  Study Test
 //
-//  Created by AC-1502001 on 16/10/24.
-//  Copyright © 2016年 AC. All rights reserved.
+//  Created by Joeyoung on 16/10/24.
+//  Copyright © 2016年 Joeyoung. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
